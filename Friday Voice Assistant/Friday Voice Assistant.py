@@ -27,8 +27,8 @@ def send_sms(ok, num):
 
     #print(message.sid)
 def phone(nump, say):
-    account_sid = 'ACb4c5b72db166a775d609ed9b40e525e3'
-    auth_token = '97a28d3fb683b83f67b22aab5d56bb1d'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     call = client.calls.create(
